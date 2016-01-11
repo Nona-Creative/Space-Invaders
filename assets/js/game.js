@@ -489,8 +489,8 @@ var Game = {
       if (bullet) {
         bullet.reset(player.x, player.y + 8);
         bullet.body.velocity.y = -600;
-        // bulletTime = game.time.now + 700;
-        bulletTime = game.time.now + 50
+        bulletTime = game.time.now + 700;
+        // bulletTime = game.time.now + 50
         playerShootSound.play();
       }
     }
